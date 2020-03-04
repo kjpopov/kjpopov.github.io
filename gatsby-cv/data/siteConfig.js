@@ -6,31 +6,31 @@ module.exports = {
   twitterUsername: '_na',
   githubUsername: 'kjpopov',
   authorAvatar: '/images/kras.png',
-  authorDescription: ``,
+  authorDescription: `DevOPS, SRE, Cloud Solution Architect, Golang advocate, Flutter enthusiast`,
   skills: [
     {
-      name: 'HTML',
-      level: 70
+      name: 'Docker',
+      level: 100
     },
     {
-      name: 'CSS',
-      level: 10
+      name: 'Kubernetes',
+      level: 100
     },
     {
-      name: 'Javascript',
-      level: 50
-    },
-    {
-      name: 'NodeJs',
+      name: 'Golang',
       level: 80
     },
     {
-      name: 'React',
-      level: 30
+      name: 'Python',
+      level: 70
     },
     {
-      name: 'Git',
-      level: 100
+      name: 'Ruby',
+      level: 50
+    },
+    {
+      name: 'PHP',
+      level: 60
     },
     {
       name: 'Bash',
@@ -41,8 +41,28 @@ module.exports = {
       level: 70
     },
     {
-      name: 'Python',
+      name: 'NodeJS',
+      level: 30
+    },
+    {
+      name: 'HTML',
       level: 70
+    },
+    {
+      name: 'CSS',
+      level: 20
+    },
+    {
+      name: 'Javascript',
+      level: 50
+    },
+    {
+      name: 'Flutter',
+      level: 40
+    },
+    {
+      name: 'Dart',
+      level: 30
     },
 
   ],
@@ -58,23 +78,23 @@ module.exports = {
       description: ""
 
     }, {
-      company: "Anapro",
+      company: "Asteasolutions AD",
       begin: {
-        month: 'dec',
-        year: '2016'
-      },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
+        month: 'Apr',
         year: '2012'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: '3 years 6 months',
+      occupation: "Cloud Administrator Amazon AWS and Microsoft Azure",
+      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
+    }, {
+      company: "TO-MI Radovis",
+      begin: {
+        month: 'sep',
+        year: '2008'
+      },
+      duration: '4 yrs',
+      occupation: "Technical Director  & Linux System Administrator",
+      description: "Administration of cable modems, billing system for LAN and docsis, administration of mikrotik and cisco routers."
 
     },
     /* ... */
@@ -95,12 +115,17 @@ module.exports = {
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Home',
+      label: 'Experiance',
       url: '/',
     },
-    {
-      label: 'Hobies',
-      url: '/hobies',
-    }
+    // TODO: Build components for those
+    // {
+    //   label: 'Education',
+    //   url: '/',
+    // },
+    // {
+    //   label: 'Hobies',
+    //   url: '/hobies',
+    // }
   ]
 }
