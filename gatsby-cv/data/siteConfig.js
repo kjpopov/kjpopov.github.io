@@ -66,28 +66,42 @@ module.exports = {
     },
 
   ],
+
+  edu: [
+    {
+      where: "South Western University",
+      begin: {
+        month: 'Oct',
+        year: '2000'
+      },
+      duration: "4 years",
+      occupation: "Phisics and Mathematics",
+      description: "Pedagogical profile for high school teacher."
+
+    },
+  ],
+
   jobs: [
     {
-      company: "FlixMobility Tech",
+      where: "FlixMobility Tech",
       begin: {
         month: 'Mar',
         year: '2016'
       },
       duration: null,
       occupation: "DevOps Engineer",
-      description: ""
-
+      description: "Developing infrastructure as code and maintaining kubernetes clusters running on bare metal and AWS cloud. Contributing to various company docker images and backend code. Automating and maintaining database clusters. Contributing to and maintaing content managemant system."
     }, {
-      company: "Asteasolutions AD",
+      where: "asteasolutions",
       begin: {
         month: 'Apr',
         year: '2012'
       },
       duration: '3 years 6 months',
       occupation: "Cloud Administrator Amazon AWS and Microsoft Azure",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
+      description: "Development and maintenance, corrective and preventive, of web applications for global market. Flex and Java backend application maintanance. Clustered and distributed software maintanance."
     }, {
-      company: "TO-MI Radovis",
+      where: "TO-MI Radovis",
       begin: {
         month: 'sep',
         year: '2008'
@@ -118,11 +132,11 @@ module.exports = {
       label: 'Experiance',
       url: '/',
     },
+    {
+      label: 'Education',
+      url: '/education',
+    },
     // TODO: Build components for those
-    // {
-    //   label: 'Education',
-    //   url: '/',
-    // },
     // {
     //   label: 'Hobies',
     //   url: '/hobies',

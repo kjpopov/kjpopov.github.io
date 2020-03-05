@@ -1,20 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
 import { config } from 'react-awesome-styled-grid'
-import siteConfig from '../../../data/siteConfig'
 
-const Timeline = ({ className }) => {
+const Timeline = ({ className, title, what }) => {
   return (
     <div className={className}>
-      <h1>Experience</h1>
-      {siteConfig.jobs && siteConfig.jobs.map(job => (
+      <h1>{title}</h1>
+      {what && what.map(job => (
         <article key={job.begin.month + job.begin.year} className='timeline__item'>
           <div className="inner">
             <span className="timeline__date">
               <span className="timeline__month">{job.begin.month}</span>
               <span className="timeline__year">{job.begin.year}</span>
             </span>
-            <h2 className='timeline__title'>{job.occupation} at {job.company} <br /><small className='timeline__title--small'>({job.duration || 'present'})</small></h2>
+            <h2 className='timeline__title'>{job.occupation} at {job.where} <br /><small className='timeline__title--small'>({job.duration || 'present'})</small></h2>
             <p>{job.description}</p>
           </div>
         </article>
@@ -96,7 +95,7 @@ export default styled(Timeline)`
     position: absolute;
     top: -5px;
     left: 30%;
-    width: 10px; 
+    width: 10px;
     height: 10px;
     transform: rotate(-45deg);
   }
