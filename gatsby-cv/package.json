@@ -36,7 +36,7 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write \"src/**/*.js\"",
     "copy": "cp -r public/* ../",
-    "clean": "rm ../*.json ../*.js ../*.html ../*.map",
+    "clean": "rm -rf public ../*.json ../*.js ../*.html ../*.map ../404 ../icons ../images ../page-data ../static ../*.webmanifest",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
