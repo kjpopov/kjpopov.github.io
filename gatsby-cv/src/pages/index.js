@@ -74,7 +74,7 @@ class Home extends React.Component {
             </Row>
             <Separator />
             <Timeline
-              title="Experiance"
+              title="Experience"
               what={siteConfig.jobs}
              />
             <Separator />

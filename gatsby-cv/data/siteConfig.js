@@ -99,7 +99,7 @@ module.exports = {
       },
       duration: '3 years 6 months',
       occupation: "Cloud Administrator Amazon AWS and Microsoft Azure",
-      description: "Development and maintenance, corrective and preventive, of web applications for global market. Flex and Java backend application maintanance. Clustered and distributed software maintanance."
+      description: "Development and maintenance, corrective and preventive, of web applications for global market. Flex and Java backend application maintenance. Clustered and distributed software maintenance."
     }, {
       where: "TO-MI Radovis",
       begin: {
@@ -107,7 +107,7 @@ module.exports = {
         year: '2008'
       },
       duration: '4 yrs',
-      occupation: "Technical Director  & Linux System Administrator",
+      occupation: "Technical Director & Linux System Administrator",
       description: "Administration of cable modems, billing system for LAN and docsis, administration of mikrotik and cisco routers."
 
     },
