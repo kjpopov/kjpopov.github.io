@@ -17,6 +17,7 @@
     "gatsby-source-filesystem": "2.1.40",
     "gatsby-transformer-sharp": "2.3.7",
     "prop-types": "15.7.2",
+    "puppeteer": "^2.1.1",
     "react": "16.12.0",
     "react-awesome-styled-grid": "3.0.0",
     "react-dom": "16.12.0",
@@ -37,6 +38,8 @@
     "format": "prettier --write \"src/**/*.js\"",
     "copy": "cp -r public/* ../",
     "clean": "rm -rf public ../*.json ../*.js ../*.html ../*.map ../404 ../icons ../images ../page-data ../static ../education ../*.webmanifest",
+    "genpdf": "node pdf.js",
+    "genjson": "node json.js",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
